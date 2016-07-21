@@ -1,3 +1,8 @@
+header {
+	position: fixed;
+	width: 100%;
+}
+
 div {
 	text-align: center;
 }
@@ -24,12 +29,12 @@ body {
 	display: block;
 }
 
-.experiences-container {
+/*.experiences-container {
 	background-color: green;
 	width:auto;
 	height:594px;
 	display: block;
-}
+}*/
 
 .contact-container {
 	background-color: red;
@@ -44,13 +49,11 @@ body {
 }
 
 .nav {
-	display: inline-block;	
-	background-color: green;
-	margin-top: 30px;
-	top: 50%;
-	left: 50%;
-	text-align: center;
-	font-size: 250%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 .nav-bar {
@@ -76,4 +79,47 @@ body {
 	background-image: url("davidBicanic.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+li {
+	float: left;
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }

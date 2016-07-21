@@ -3,8 +3,25 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="application.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	<title>David Bicanic</title>
 </head>
+<header>
+		<div class="nav-bar">
+		<ul class="nav">
+			<li class="dropdown">
+				<a href="#" class="dropbtn">Projects</a>
+				<div class="dropdown-content">
+					<a href="#"><img src="studybuddy.png"></a>
+					<a href="#"><img src="progress.png"></a>
+				</div>
+			</li>
+			<li><a class="nav-link" href="DavidBicanicResume2.pdf">Resume</a></li>
+			<li><a class="nav-link" href="#contact">Contact</a></li>
+		</ul>
+	</div>
+</header>
 <body>
 	<div class="intro-container" id="home">
 		<div class="intro-block">	
@@ -15,12 +32,17 @@
 		</div>
 	</div>
 	<div class="nav-bar">
-		<nav class="nav">
-			<a class="nav-link" href="#home">Top</a>
-			<a class="nav-link" href="#projects">Projects</a>
-			<a class="nav-link" href="#experiences">Experiences</a>
-			<a class="nav-link" href="#contact">Contact</a>
-		</nav>
+		<ul class="nav">
+			<li class="dropdown">
+				<a href="#" class="dropbtn">Projects</a>
+				<div class="dropdown-content">
+					<a href="#"><img src="studybuddy.png"></a>
+					<a href="#"><img src="progress.png"></a>
+				</div>
+			</li>
+			<li><a class="nav-link" href="DavidBicanicResume2.pdf">Resume</a></li>
+			<li><a class="nav-link" href="#contact">Contact</a></li>
+		</ul>
 	</div>
 	<div class="projects-container" id="projects">
 		<div id="studybuddy">
@@ -31,9 +53,6 @@
 			<a href="https://progressdbc.herokuapp.com/"><img src="progress.png"></a><h3>Progress</h3>
 			<p>Progress was our three man group final project at Dev Bootcamp. The inspiration for Progress was to provide Dev Bootcamp students a tool to create goals, track those goals, and view past successes. This app was built mobile first, but can be enjoyed on any device.</p>
 		</div>
-	</div>
-	<div class="experiences-container" id="experiences">
-		
 	</div>
 	<div class="contact-container" id="contact">
 		<p>How to get a hold of me...</p>
