@@ -22,9 +22,13 @@ p {
 }
 
 .intro-container {
-	background-color: orange;
+	background-image: url("landscapeNY.JPG");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 	width:auto;
 	height:700px;
+	color: #FEE100;
+	text-shadow: black 2px 2px;
 }
 
 .projects-container {
@@ -42,7 +46,7 @@ p {
 }*/
 
 .contact-container {
-	background-color: red;
+	background-color: #FEE100;
 	width:auto;
 	height:200px;
 	display: block;
