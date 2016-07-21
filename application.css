@@ -123,3 +123,8 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.projectLogo {
+	width: 200px;
+	height: 50px;
+}
