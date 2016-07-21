@@ -11,6 +11,10 @@ body {
 	margin: 0;
 }
 
+p {
+	margin: 0;
+}
+
 .intro-block {
 	padding-top: 100px;
 	font-family: 'Bree Serif', serif;
@@ -130,6 +134,12 @@ li.dropdown {
 }
 
 .socialLogo {
-	width: 50px;
-	height: 50px;
+	width: 75px;
+	height: 75px;
+}
+
+#studybuddy {
+	padding-top: 200px;
+	background-color: #27C3DF;
+	height: 400px;
 }
