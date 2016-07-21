@@ -1,6 +1,7 @@
 header {
 	position: fixed;
 	width: 100%;
+	z-index: 1;
 }
 
 div {
@@ -146,18 +147,42 @@ p {
 	padding-bottom: 200px;
 }
 
-#sblogo {
+#Progress {
+	padding-top: 200px;
+	background-color: #69D2E7;
+	height: 100%;
+	width: 100%;
+	padding-bottom: 200px;
+}
+
+.logo {
+	margin-left: 2.5%;
 	width: 300px;
 	height: 100px;
 }
 
-#studybuddy-desc {
+.desc {
 	width: 60%;
-	height: 200px;
+	height: 40%;
 	position: relative;
 	border: 2px dotted black;
 	margin-left: 20%;
 	padding: 20px;
-	font-size: 150%;
+	font-size: 125%;
 	margin-top: 20px;
+	z-index: 0;
+}
+
+#sb {
+	background-color: #F5760F;
+}
+
+#pro {
+	background-color: #E0E4CC;
+}
+
+.desc li {
+	margin-top: 15px;
+	margin-right: 15px;
+	display: inline-block;
 }
