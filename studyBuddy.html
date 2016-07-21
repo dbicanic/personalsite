@@ -3,28 +3,35 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="application.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=yes">
 	<title>Study Buddy</title>
 </head>
 <header>
 		<div class="nav-bar">
 		<ul class="nav">
-			<li><a href="index.html">Home</a>
-			<li class="dropdown">
+			<li class="drop"><a href="index.html">Home</a>
+			<li class="dropdown drop">
 				<a href="#" class="dropbtn">Projects</a>
 				<div class="dropdown-content">
 					<a href="studyBuddy.html"><img class="projectLogo" src="studybuddy.png"></a>
 					<a href="progress.html"><img class="projectLogo" src="progress.png"></a>
 				</div>
 			</li>
-			<li><a class="nav-link" href="DavidBicanicResume2.pdf">Resume</a></li>
-			<li><a class="nav-link" href="#contact">Contact</a></li>
+			<li class="drop"><a class="nav-link" href="DavidBicanicResume2.pdf">Resume</a></li>
+			<li class="drop"><a class="nav-link" href="#contact">Contact</a></li>
 		</ul>
 	</div>
 </header>
 <body>
 	<div id="studybuddy">
-		<a href="https://dbcstudybuddy.herokuapp.com/"><img src="studybuddy.png"></a><h3>Study Buddy</h3>
-		<p>Study Buddy is a "client project" that a team of myself and four others completed in three days.  The purpose of this project was to allow an administrator to invite teachers to join via email.  The teachers then could add and remove students from their perspective lists.</p>
+		<a href="https://dbcstudybuddy.herokuapp.com/"><img id="sblogo" src="studybuddy.png"></a>
+		<div id="studybuddy-desc">
+			<p>Study Buddy is a "client project" that a team of myself and four others completed in three days.  The purpose of this project was to allow an administrator to invite teachers to join via email.  The teachers then could add and remove students from their perspective lists.</p>
+			<ul><p>List of skills used</p>
+				<li>Ruby on Rails</li>
+				<li>HTML</li>
+				<li>CSS</li>
+		</div>
 	</div>
 </body>
 <footer>

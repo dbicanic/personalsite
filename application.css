@@ -23,7 +23,7 @@ p {
 .intro-container {
 	background-color: orange;
 	width:auto;
-	height:594px;
+	height:700px;
 }
 
 .projects-container {
@@ -85,12 +85,12 @@ p {
 	background-repeat: no-repeat;
 }
 
-li {
+.drop {
 	float: left;
 }
 
 
-li a, .dropbtn {
+.drop a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -98,11 +98,11 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+.drop a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
 
-li.dropdown {
+.drop.dropdown {
     display: inline-block;
 }
 
@@ -141,5 +141,23 @@ li.dropdown {
 #studybuddy {
 	padding-top: 200px;
 	background-color: #27C3DF;
-	height: 400px;
+	height: 100%;
+	width: 100%;
+	padding-bottom: 200px;
+}
+
+#sblogo {
+	width: 300px;
+	height: 100px;
+}
+
+#studybuddy-desc {
+	width: 60%;
+	height: 200px;
+	position: relative;
+	border: 2px dotted black;
+	margin-left: 20%;
+	padding: 20px;
+	font-size: 150%;
+	margin-top: 20px;
 }
