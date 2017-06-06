@@ -1,48 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="application.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/application.css"/>
+	
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
-	<!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
-	<meta name="viewport" content="width=device-width, user-scalable=yes">
+	
+	<!-- Bootstrap CDN-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<title>David Bicanic</title>
 </head>
-<header>
-		<div class="nav-bar">
-		<ul class="nav">
-			<li class="drop"><a href="index.html">Home</a>
-			<li class="dropdown drop">
-				<a href="#" class="dropbtn">Projects</a>
-				<div class="dropdown-content">
-					<a href="studyBuddy.html"><img class="projectLogo" src="studybuddy.png"></a>
-					<a href="progress.html"><img class="projectLogo" src="progress.png"></a>
-				</div>
-			</li>
-			<li class="drop"><a class="nav-link" href="DavidBicanicResume2.pdf">Resume</a></li>
-			<li class="drop"><a class="nav-link" href="#contact">Contact</a></li>
-		</ul>
+<body class="container-fluid">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	    <div class="navbar-header">
+	    	<a class="navbar-brand" href="#"></a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	        <ul class="nav navbar-nav">
+	           	<li class="active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>
+	           	<li><a href="#">Study Buddy</a></li>
+	           	<li><a href="#">Progress</a></li>
+	           	<li><a href="#">Resume</a></li>
+	        </ul>
+	        <ul class="nav navbar-nav navbar-right">
+	           	<li id="contactMeNav"><a href="#">Contact Me</a></li>
+	        </ul>
+	    </div>
+	</nav>
+	<div class="overview col-sm-8 col-sm-offset-2">
+		<h2 class="title">Overview</h2>
+		<p class="content">Fingerstache affogato letterpress wayfarers authentic hexagon. Food truck YOLO tote bag health goth readymade, mustache live-edge disrupt chillwave literally whatever thundercats. Sustainable mixtape fixie pour-over, kale chips cred gluten-free hot chicken jianbing cray marfa roof party lyft letterpress. Prism hammock yuccie whatever pickled enamel pin, thundercats YOLO hexagon lumbersexual actually. Pinterest bitters scenester unicorn flexitarian single-origin coffee. Synth tattooed migas fingerstache actually vaporware, hoodie offal letterpress tote bag ennui food truck. Cloud bread vice skateboard blue bottle.</p>
 	</div>
-</header>
-<body>
-	<div class="intro-container" id="home">
-		<div class="intro-block">	
-			<div class="user-pic"></div>
-			<p class="greeting intro">Hi, my name is...</p>
-			<h1 class="name intro">David Bicanic</h1>
-			<p class="position intro">Web Developer</p>
+	<div class="overview col-sm-8 col-sm-offset-2">
+		<h2 class="title">What I Know</h2>
+		<div class="row">
+			<div class="col-sm-3 col-xs-6">
+				<img class="langPic" src="assets/images/javascript.png" alt="Javascript logo">
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<img class="langPic" src="assets/images/coldFusion.jpg" alt="ColdFusion logo">
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<img class="langPic" src="assets/images/rails.png" alt="Rails logo">
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<img class="langPic" src="assets/images/ruby.png" alt="Ruby logo">
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<img class="langPic" src="assets/images/jQuery.gif" alt="jQuery logo">
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<img class="langPic" src="assets/images/html.png" alt="HTML logo">
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<img class="langPic" src="assets/images/css.png" alt="CSS logo">
+			</div>
+			<div class="col-sm-3 col-xs-6">
+				<img class="langPic" src="assets/images/git.png" alt="Git logo">
+			</div>
 		</div>
 	</div>
 </body>
-<footer>
-		<div class="contact-container" id="contact">
-			<div class="contact-info">
-			<p id="ending">Let's Talk!</p>
-			<p id="phone">Phone: 847-387-0503</p>
-			<p id="email">Email: <a href="mailto:dbicanic77@gmail.com">dbicanic77@gmail.com</a></p>
-		</div>
-		<a href="https://www.linkedin.com/in/dbicanic"><img class="socialLogo" src="linkedin-128.png"></a>
-		<a href="https://github.com/dbicanic"><img class="socialLogo" src="github.png"></a>
-	</div>
-</footer>
 </html>

@@ -1,0 +1,43 @@
+#contactMeNav {
+	padding-right: 15px;
+}
+
+.container-fluid {
+  margin: 0;
+  background-color: #708090;
+}
+
+.content {
+	padding-left: 25px;
+}
+
+.langPic {
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+}
+
+.navbar-brand {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 1px auto;
+	border: 1px solid white;
+	border-radius: 100px;
+	background-image: url("../images/davidBicanic.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#navHome {
+	color: white;
+}
+
+.overview {
+	margin-top: 80px;
+	color: white;
+}
+
+.title {
+	padding: 10px;
+}
