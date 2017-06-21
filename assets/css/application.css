@@ -1,3 +1,11 @@
+body {
+	background-color: #708090;
+}
+
+.contactInfo {
+
+}
+
 #contactMeNav {
 	padding-right: 15px;
 }
@@ -9,12 +17,25 @@
 
 .content {
 	padding-left: 25px;
+	font-size: 1.5em;
+}
+
+#footer {
+	background-color: #66ccff;
+	height: 100px;
+	width: 100%;
 }
 
 .langPic {
 	width: 100px;
 	height: 100px;
 	padding: 20px;
+}
+
+#name {
+	padding-top: 15px;
+	font-size: 1.2em;
+	font-weight: bold;
 }
 
 .navbar-brand {
@@ -33,6 +54,18 @@
 	color: white;
 }
 
+.noBullets {
+	list-style-type: none;
+}
+
+#progress {
+	background-color: #69D2E7;
+	padding: 20px;
+	margin-bottom: 15px;
+	border-style: outset;
+	border-color: white;
+}
+
 .resume {
 	width: 100%;
 	height: 600px;
@@ -43,6 +76,27 @@
 	color: white;
 }
 
+.socialLogo {
+	width: 75px;
+	height: 75px;
+}
+
+#studyBuddy {
+	background-color: #27C3DF;
+	padding: 20px;
+	border-style: outset;
+	border-color: #F97400;
+}
+
+#studyBuddyLogo {
+	width: 259px;
+	height: 46px;
+}
+
 .title {
 	padding: 10px;
+}
+
+ul {
+	list-style: none
 }
