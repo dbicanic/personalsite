@@ -21,21 +21,46 @@
 </head>
 <body>
 <div  class="container-fluid">
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<!-- <nav class="navbar navbar-inverse navbar-fixed-top navbar-collapse">
 	    <div class="navbar-header">
 	    	<a class="navbar-brand" href="#"></a>
 	    </div>
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	        <ul class="nav navbar-nav">
 	           	<li class="active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>
-	           	<li><a href="#">Study Buddy</a></li>
-	           	<li><a href="#">Progress</a></li>
-	           	<li><a href="#">Resume</a></li>
+	           	<li><a href="#studyBuddy">Study Buddy</a></li>
+	           	<li><a href="#progress">Progress</a></li>
+	           	<li><a href="#resume">Resume</a></li>
 	        </ul>
 	        <ul class="nav navbar-nav navbar-right">
 	           	<li id="contactMeNav"><a href="#">Contact Me</a></li>
 	        </ul>
 	    </div>
+	</nav> -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"></a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    <ul class="nav navbar-nav">
+		       	<li class="active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>
+		       	<li><a href="#studyBuddy">Study Buddy</a></li>
+		       	<li><a href="#progress">Progress</a></li>
+		       	<li><a href="#resume">Resume</a></li>
+		    </ul>
+		    <ul class="nav navbar-nav navbar-right">
+		       	<li id="contactMeNav"><a href="#">Contact Me</a></li>
+		    </ul>
+		</div>
 	</nav>
 	<div class="overview col-sm-8 col-sm-offset-2 col-xl-6 col-xl-offset-4">
 		<h2 class="title">Nice to meet you, I'm David</h2>
@@ -72,6 +97,7 @@
 	</div>
 	<div class="overview col-sm-8 col-sm-offset-2 col-xl-6 col-xl-offset-4">
 		<h2 class="title">Projects</h2>
+		<a name="studyBuddy">
 		<div id="progress" class="text-center">
 			<img src="assets/images/progress.png">
 			<p class="content"><a href="https://progressdbc.herokuapp.com/">Progress</a> was our three man group final project at Dev Bootcamp. The inspiration for Progress was to provide Dev Bootcamp students a tool to create goals, track those goals, and view past successes. This app was built mobile first, but can be enjoyed on any device.</p>
@@ -88,6 +114,7 @@
 				<p class="col-sm-3">CSS</p>
 			</div>
 		</div>
+		<a name="studyBuddy">
 		<div id="studyBuddy" class="text-center">
 			<img id="studyBuddyLogo" src="assets/images/studybuddy.png">
 			<p class="content"><a href="https://dbcstudybuddy.herokuapp.com/">Study Buddy</a> is a "client project" that a team of myself and four others completed in three days. The purpose of this project was to allow an administrator to invite teachers to join via email. The teachers then could add and remove students from their perspective lists.</p>
@@ -100,7 +127,7 @@
 			</div>
 		</div>
 	</div>
-
+	<a name="resume">
 	<div class="overview col-sm-8 col-sm-offset-2">
 		<h2 class="title">Resume</h2>
 		<object class="resume" data="DavidBicanicResume2.pdf" type="application/pdf">
