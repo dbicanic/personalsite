@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="application.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/application.css"/>
+	
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
-	<!-- <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
-	<meta name="viewport" content="width=device-width, user-scalable=yes">
+	
+	<!-- Bootstrap CDN-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<title>David Bicanic</title>
 
 	<!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -19,41 +30,129 @@
 	</script>
 
 </head>
-<header>
-		<div class="nav-bar">
-		<ul class="nav">
-			<li class="drop"><a href="index.html">Home</a>
-			<li class="dropdown drop">
-				<a href="#" class="dropbtn">Projects</a>
-				<div class="dropdown-content">
-					<a href="studyBuddy.html"><img class="projectLogo" src="studybuddy.png"></a>
-					<a href="progress.html"><img class="projectLogo" src="progress.png"></a>
-				</div>
-			</li>
-			<li class="drop"><a class="nav-link" href="DavidBicanicResume2.pdf">Resume</a></li>
-			<li class="drop"><a class="nav-link" href="#contact">Contact</a></li>
-		</ul>
-	</div>
-</header>
 <body>
-	<div class="intro-container" id="home">
-		<div class="intro-block">	
-			<div class="user-pic"></div>
-			<p class="greeting intro">Hi, my name is...</p>
-			<h1 class="name intro">David Bicanic</h1>
-			<p class="position intro">Web Developer</p>
+	<div  class="container-fluid">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    <ul class="nav navbar-nav">
+			       	<li class="active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>
+			       	<li><a href="#studyBuddyAnchor">Study Buddy</a></li>
+			       	<li><a href="#progressAnchor">Progress</a></li>
+			       	<li><a href="#resumeAnchor">Resume</a></li>
+			    </ul>
+			    <ul class="nav navbar-nav navbar-right">
+			       	<li id="contactMeNav"><a href="#contactAnchor">Contact Me</a></li>
+			    </ul>
+			</div>
+		</nav>
+		<div class="overview col-sm-8 col-sm-offset-2 col-xl-6 col-xl-offset-4">
+			<h2 class="title">Nice to meet you, I'm David</h2>
+			<p class="content">I'm a White Sox, Bears, Bulls, and Blackhawks fan, dog lover, video game aficionado, and a full stack web developer. I started my developing journey at Dev Bootcamp back in February of 2016 and I’ve been writing code ever since. The challenge of solving complex problems everyday let's me know I picked the right career. I’d love to get to know you better! Feel free to reach out to me on <a class="linkStyle" href="https://www.linkedin.com/in/dbicanic">LinkedIn</a>, <a class="linkStyle" href="https://github.com/dbicanic">GitHub</a>, or <a class="linkStyle" href="mailto:dbicanic77@gmail.com">Email!</a></p>
 		</div>
+		<div class="overview col-sm-8 col-sm-offset-2 col-xl-6 col-xl-offset-4">
+			<h2 class="title">What I Know</h2>
+			<div class="row">
+				<div class="col-sm-3 col-xs-6">
+					<img class="langPic" src="assets/images/javascript.png" alt="Javascript logo">
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<img class="langPic" src="assets/images/coldFusion.jpg" alt="ColdFusion logo">
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<img class="langPic" src="assets/images/rails.png" alt="Rails logo">
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<img class="langPic" src="assets/images/ruby.png" alt="Ruby logo">
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<img class="langPic" src="assets/images/jQuery.gif" alt="jQuery logo">
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<img class="langPic" src="assets/images/html.png" alt="HTML logo">
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<img class="langPic" src="assets/images/css.png" alt="CSS logo">
+				</div>
+				<div class="col-sm-3 col-xs-6">
+					<img class="langPic" src="assets/images/git.png" alt="Git logo">
+				</div>
+			</div>
+		</div>
+		<div class="overview col-sm-8 col-sm-offset-2 col-xl-6 col-xl-offset-4">
+			<h2 class="title">Projects</h2>
+			<a id="progressAnchor">
+			<div id="progress" class="text-center">
+				<img src="assets/images/progress.png">
+				<p class="content"><a href="https://progressdbc.herokuapp.com/">Progress</a> was our three man group final project at Dev Bootcamp. The inspiration for Progress was to provide Dev Bootcamp students a tool to create goals, track those goals, and view past successes. This app was built mobile first, but can be enjoyed on any device.</p>
+				<h4>List of skills used</h4>
+				<div class="row">
+					<p class="col-sm-3">Ruby on Rails</p> 
+					<p class="col-sm-3">Javascript</p> 
+					<p class="col-sm-3">jQuery</p> 
+					<p class="col-sm-3">HAML</p>
+					<p class="col-sm-3">Gem: Materiapze</p> 
+					<p class="col-sm-3">Gem: Sorcery</p> 
+					<p class="col-sm-3">Gem: Travis</p>
+					<p class="col-sm-3">HTML</p>
+					<p class="col-sm-3">CSS</p>
+				</div>
+			</div>
+			<a id="studyBuddyAnchor">
+			<div id="studyBuddy" class="text-center">
+				<img id="studyBuddyLogo" src="assets/images/studybuddy.png">
+				<p class="content"><a href="https://dbcstudybuddy.herokuapp.com/">Study Buddy</a> is a "client project" that a team of myself and four others completed in three days. The purpose of this project was to allow an administrator to invite teachers to join via email. The teachers then could add and remove students from their perspective lists.</p>
+				<h4>List of skills used</h4>
+				<div class="row">
+					<p class="col-sm-3">Ruby on Rails</p> 
+					<p class="col-sm-3">HTML</p> 
+					<p class="col-sm-3">CSS</p>
+					<p class="col-sm-3">Gem: Travis</p>
+				</div>
+			</div>
+		</div>
+		<div class="overview col-sm-8 col-sm-offset-2">
+			<h2 class="title">Resume</h2>
+			<a id="resumeAnchor"/>
+			<object class="resume" data="assets/images/davidResume3.pdf" type="application/pdf">
+			  <p>It appears you don't have a PDF plugin for this browser.</p>
+			  <p id="missing-pdf-plugin">You can <a href="assets/images/davidResume3.pdf">click here to
+			  download my Resume</a>.</p>
+			</object>
+
+			<script type="text/javascript">
+				$(document).ready(function(){
+				    if ( $.browser.mozilla) { // firefox
+				        var msg = "You can <ul><li>either install a PDF plugin such as <a href='https://addons.mozilla.org/en-US/firefox/addon/pdfjs/'>this one</a> and refresh this page,</li><li>or <a href='DavidBicanicResume2.pdf'>click here to download my Resume</a>.</li></ul>";
+				        $("#missing-pdf-plugin").html(msg);
+				    }
+				});
+			</script>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="contactInfo col-sm-6">
+			<ul class="noBullets">
+				<a id="contactAnchor" />
+				<li id="name">David Bicanic</li>
+				<li id="email"><a href="mailto:dbicanic77@gmail.com">dbicanic77@gmail.com</li>
+			</ul>
+		</div>
+		<div class="socialMedia col-sm-offset-4 col-sm-2">
+			<a href="https://www.linkedin.com/in/dbicanic"><img class="socialLogo" src="assets/images/linkedin-128.png"></a>
+			<a href="https://github.com/dbicanic"><img class="socialLogo" src="assets/images/github.png"></a>
+		</div>		
 	</div>
 </body>
-<footer>
-		<div class="contact-container" id="contact">
-			<div class="contact-info">
-			<p id="ending">Let's Talk!</p>
-			<p id="phone">Phone: 847-387-0503</p>
-			<p id="email">Email: <a href="mailto:dbicanic77@gmail.com">dbicanic77@gmail.com</a></p>
-		</div>
-		<a href="https://www.linkedin.com/in/dbicanic"><img class="socialLogo" src="linkedin-128.png"></a>
-		<a href="https://github.com/dbicanic"><img class="socialLogo" src="github.png"></a>
-	</div>
-</footer>
 </html>
